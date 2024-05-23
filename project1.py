@@ -18,7 +18,6 @@ questions = [
 
 
 def ask_question(question_data):
-    """Ask a single question and validate the answer."""
     print(question_data["question"])
     for option in question_data["options"]:
         print(option)
@@ -39,7 +38,6 @@ def ask_question(question_data):
 
 
 def run_quiz(questions):
-    """Run the entire quiz and keep score."""
     score = 0
     total_questions = len(questions)
 
